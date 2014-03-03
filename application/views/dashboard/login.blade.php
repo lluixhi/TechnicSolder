@@ -63,7 +63,7 @@
             {{ Session::get('logout') }}
           </div>
         @endif
-        <input type="text" name="email" class="input-block-level" placeholder="Email address">
+        <input type="text" name="email" class="input-block-level" placeholder="Username">
         <input type="password" name="password" class="input-block-level" placeholder="Password">
         <label class="checkbox">
           <input type="checkbox" name="remember" value="1"> Remember me
